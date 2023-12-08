@@ -15,6 +15,10 @@ urlpatterns = [
     path(route='contact/', view=views.contact, name='contact'),
     # path for registration
     path(route='registration/', view=views.registration_request, name='register'),
+    # path for car make view
+    #path(route='carmake/', view=views.carmake, name='carmake'),
+    # path for car model view
+    #path(route='carmodel/', view=views.carmodel, name='carmodel'),
     # path for login
     path(route='login/', view=views.login_request, name='login'),
     # path for logout

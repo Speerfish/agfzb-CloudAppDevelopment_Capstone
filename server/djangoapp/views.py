@@ -15,6 +15,13 @@ logger = logging.getLogger(__name__)
 
 
 # Create your views here.
+# Create an `carmake` view to render a carmake page
+#def carmake(request):
+#    return render(request,'djangoapp/carmake')
+
+# Create an `carmodel` view to render a carmodel page
+#def carmodel(request):
+#    return render(request,'djangoapp/carmodel')
 
 # Create an `index` view to render a static index page
 def index(request):
